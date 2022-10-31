@@ -78,4 +78,8 @@ dependencies {
   generalImplementation "com.google.android.gms:play-services-mlkit-face-detection:16.2.0"
   mlkitImplementation "com.google.mlkit:barcode-scanning:16.2.0"
   mlkitImplementation "com.google.mlkit:face-detection:16.1.2"
+  compile ('com.google.android.gms:play-services-vision:11.8.0') {
+        force = true;
+  }
+
 }
